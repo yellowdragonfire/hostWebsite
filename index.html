@@ -1,1 +1,140 @@
+<!-- Name: Jean-Charles Hekamanu -->
+<!-- Date: 10/22/2023 -->
+<!-- Class: CSCE 3420 -->
+<html>
+<head>
+<title>My Website</title>
+</head>
+
+<!-- styles -->
+<style>
+
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    h2 {font-family: "Courier New";
+    
+    p {font-size: 30px;}
+    
+    
+    li{ display: inline;}
+    
+    p1{font-family:"Times New Roman";}
+    </style>
+    
+</style>
+
+<body>
+<h1>My website</h1>
+<p>Welcome to my Business Website! Click on the links below to learn more about us!</p>
+
+<ul>
+    <!-- links -->
+    <li><a href="https://www.godaddy.com">Home</a></li>
+    <li><a href="https://people.com">People</a></li>
+    <li><a href="https://www.lifeatspotify.com">Places</a></li>
+    <li><a href="https://www.yelp.com">Reviews</a></li>
+    
+    
+</ul>
+
+<!-- image -->
+<img src="plane image.jpg">
+<p style="font-size: 30px">Contact information</p>
+<ul>
+   <!-- list(unordered) -->
+   <!-- text formating: italics -->
+   <li><i>Address: 123 State Street</i></li>
+   <li><i>Phone:(111)111-1113</i></li>
+   <li><i>Email: <a href="mailto.JamesBond@geek.com">JamesBond@geek.com</a></u></i></li>
+</ul>
+
+<!-- table -->
+<p1>Company Origin: </p1>
+<table border="1">
+    <tr>
+        <th>Owner</th>
+        <th>Date of Birth</th>
+    </tr>
+    <tr>
+         <td>James Bond</td>
+         <td>March 16, 1982</td>
+    </tr>
+</table>
+
+
+<head> 
+    <!-- User's information -->
+    <h2>Customer infomation</h2>
+    <form action="" method="post"> <!-- use of post method -->
+        <label for="full-name">Name</label>
+        <br> <!--  line break -->
+        <input type="text" id="full-name" placeholder="Enter your name"> 
+        <br>
+    
+     
+        <label for="username">Username</label>
+        <br>
+        <input type="text" id="username" placeholder="Enter your username">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="text" id="password" placeholder="Enter your password">
+        <br>
+        
+        <label for="address">Address</label>
+        <br>
+        <input type="text" id="address" placeholder ="Enter your address">
+        <br>
+        
+        <label for="phone-number">Phone-number</label>
+        <br>
+        <input type ="text" id="phone-number" placeholder ="Enter your phone-number">
+        <br>
+        
+        <!-- Text boxes -->
+        <form action="orders.php" method="post">
+         <p style="font-family: verdana">Comments:
+         <br><textarea name="comments"></textarea>
+         </p>    
+            
+            
+            
+        </form>
+
+        <!-- Drop-down list -->
+        <label for="country">Country:</label>
+        <select id="country" name=country>
+            <option value="USA">USA</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+            <option value="India">India</option>
+            
+        </select>
+        
+        <!-- Radio Buttons -->
+        <p><span style="color: Green;">Gender:</span>
+        <br><input type="radio" name="gender" value="1">Male</input>
+        <br><input type="radio" name="gender" value="2">Female</input>
+            
+            
+            
+            
+            
+            
+        </p>
+        <!-- Checkboxes -->
+        <p><span style="color: purple;">How would you like us to recieve news from us?</span></p>
+        <input type="checkbox" name="news" value="rage" unchecked> Email</input>
+        <br><input type="checkbox" name="news" value="rage" unchecked> Text message</input>
+        <br><input type="checkbox" name="news" value="rage" unchecked> Phone-call</input>
+        <br>
+       
+       
+    <!--  Buttons -->
+    
+    <br><input type="submit" name="Submit" value="Submit">
+</head>
+</body>
+</html>
 
